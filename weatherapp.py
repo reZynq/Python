@@ -149,7 +149,7 @@ class WeatherApp(QWidget):
         temperature_k = data["main"]["temp"]
         feels_like_description = data["main"]["feels_like"]
         temperature_c = temperature_k - 273.15
-        temperature_feels_like_c = temperature_k - 273.15
+        temperature_feels_like_c = feels_like_description - 273.15
         weather_description = data["weather"][0]["description"]
         sunrise_description = data["sys"]["sunrise"]
         sunset_description = data["sys"]["sunset"]
