@@ -1,5 +1,3 @@
-**HELLO**
-
 This is a python script which simulates a weather app using an API Key from a website
 
 **ADD API KEY**
